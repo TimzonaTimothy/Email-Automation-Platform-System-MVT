@@ -10,7 +10,7 @@ class Command(BaseCommand):
             {'matric_no': 1002, 'name':"Mike", 'age':19},
             {'matric_no': 1003, 'name':"John", 'age':18},
             {'matric_no': 1004, 'name':"Ike", 'age':20},
-            {'matric_no': 1005, 'name':"Joe", 'age':17},
+            {'matric_no': 1006, 'name':"Me", 'age':17},
         ]
 
         for data in dataset:

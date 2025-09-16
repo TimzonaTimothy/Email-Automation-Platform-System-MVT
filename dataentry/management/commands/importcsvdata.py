@@ -3,6 +3,8 @@ from django.apps import apps
 import csv
 
 # command python manage.py importcsvdata file_path model_name
+# eg python manage.py importcsvdata file_path StudentModel
+
 
 class Command(BaseCommand):
     help = "Import data from csv"

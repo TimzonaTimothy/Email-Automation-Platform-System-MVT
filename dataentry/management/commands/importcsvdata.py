@@ -33,5 +33,5 @@ class Command(BaseCommand):
             reader = csv.DictReader(file)
             for row in reader:
                 model.objects.create(**row)
-                print(file)
+                
         self.stdout.write(self.style.SUCCESS('Success data imported!'))

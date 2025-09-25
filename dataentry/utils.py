@@ -1,7 +1,7 @@
 from django.apps import apps
 
 def get_all_custom_models():
-    default_models = ['Session','ContentType','Group','Permission','LogEntry','User']
+    default_models = ['Session','ContentType','Group','Permission','LogEntry','User','Upload']
     custom_models = []
     for model in apps.get_models():
         if model.__name__ not in default_models:
